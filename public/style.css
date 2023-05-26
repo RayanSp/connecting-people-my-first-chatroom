@@ -6,17 +6,7 @@ body {
   overflow: hidden;
   min-height: 100vh;
   min-width: 100vw;
-  background: white;
-  /* background: rgba(188, 105, 138, 0.5);
-  background-image: radial-gradient(
-      circle at bottom left,
-      rgba(255, 255, 0, 0.9),
-      rgba(255, 255, 0, 0) 70%
-    ),
-    radial-gradient(circle at top left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 70%),
-    radial-gradient(circle at center right, rgba(255, 0, 255, 0.8), rgba(255, 0, 255, 0) 50%);
-  background-size: 200% 200%;
-  animation: movement 30s ease infinite alternate-reverse; */
+  background: rgb(230, 230, 230);
 }
 
 @keyframes movement {
@@ -51,7 +41,7 @@ section {
   width: 20rem;
   height: 30rem;
   /* background: rgb(239, 238, 238); */
-  background: rgba(255, 255, 255, 0.6);
+  background: white;
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
