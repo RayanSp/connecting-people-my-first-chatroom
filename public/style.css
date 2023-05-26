@@ -92,10 +92,6 @@ section ul {
   overflow-y: scroll;
 }
 
-::-webkit-scrollbar {
-  background: transparent;
-}
-
 section ul > li {
   padding: 0.5rem 1rem;
   font-size: 0.8rem;
@@ -156,6 +152,7 @@ section form > button:hover {
   /* padding-left: 1rem; */
   background: white;
   border: 1px solid #72afa6;
+  color: #72afa6;
 }
 
 section form > button:active {
